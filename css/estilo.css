@@ -7,23 +7,29 @@ body {
 }
 
 header, #principal, #second, #contato, #stream {
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
 #logo {
   width: 100px;
 }
-#second img{
+
+#second img {
   background-color: #fff;
-  border: 50px;
-  align-items: center;
-  justify-content: center;
+  border: 2px solid #ddd;
+  padding: 10px;
+  display: block;
 }
+
 #cartaz {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .link-menu {
   color: #fff;
   background-color: #555;
@@ -32,16 +38,18 @@ header, #principal, #second, #contato, #stream {
   padding: 10px 20px;
   border-radius: 5px;
   display: inline-block;
-  color: #fff;
 }
+
 .link-menu.f {
   background-color: #5b305a; 
   border: 2px solid #5b305a;
 }
+
 .link-menu.l {
   background-color: #e49756;
   border: 2px solid #e49756;
 }
+
 .link-menu.m {
   background-color: #e04b5a;
   border: 2px solid #e04b5a;
@@ -55,36 +63,36 @@ header, #principal, #second, #contato, #stream {
   align-items: center;
   justify-content: space-between;
 }
+
 #principal img {
   width: 200px;
   height: auto;
   margin-right: 20px;
 }
-header{ 
-  flex-direction: row;
+
+header {
   display: flex;
-  text-decoration: none;
-  margin-right: 20px;
-}
- #menu { 
-  align-items: left;
   flex-direction: row;
-  display: flex;
-  text-decoration: none;
-  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
+
+#menu { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 #logo img {
   height: 100px;
 }
 
-.cartaz img{
-  flex-direction: row;
-  color: #fff;
+.cartaz img {
   width: 100px;
   margin-right: 20px;
-  align-items: center;
-  justify-content: left;
 }
+
 main {
   background-color: #333;
   color: #ddd;
@@ -93,25 +101,26 @@ main {
 h1, h2 {
   font-family: 'Amatic SC';
 }
+
 #sec-ctd {
   margin-left: 20px;
 }
+
 #sec-ctd h1 {
   font-family: 'Amatic SC';
   font-size: 20px;
   text-align: right; 
 }
-#l{
+
+#l {
   color: black;
 }
 
-#second a{
+#second a {
   color: #fff;
   width: 50px;
   height: auto;
   margin-right: 20px;
-  align-items: center;
-  justify-content: center;
 }
 
 footer {
@@ -127,12 +136,12 @@ footer {
   text-decoration: none;
   margin-right: 20px;
 }
+
 #social a img {
   width: 30px;
   margin: 0 5px;
-  flex-direction: left 50px;
-  justify-content: flex-end;
 }
+
 #contato {
   padding: 10px 0 30px 40px;
 }
