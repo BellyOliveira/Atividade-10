@@ -22,6 +22,7 @@ header, #principal, #second, #contato, #stream {
   border: 2px solid #ddd;
   padding: 10px;
   display: block;
+  margin: 10px; /* Ajuste a margem aqui também para o segundo bloco */
 }
 
 #cartaz {
@@ -145,6 +146,22 @@ footer {
 
 #contato {
   padding: 10px 0 30px 40px;
+}
+
+/* Estilos adicionados para espaçar as imagens de filme, livro e música */
+#principal img, 
+#second img, 
+.cartaz img {
+  margin: 10px; /* Adiciona uma margem de 10px ao redor das imagens */
+  display: block; /* Garante que as imagens sejam tratadas como blocos */
+}
+
+#second img {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 10px;
+  display: block;
+  margin: 10px; /* Ajuste a margem aqui também para o segundo bloco */
 }
 
 /* Estilos adicionados para centralizar o botão e colocar a figurinha à esquerda */
