@@ -7,7 +7,7 @@ body {
 }
 
 header, #principal, #second, #contato, #stream {
-  display: flex; /* Adicionando display flex para garantir o alinhamento */
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -19,13 +19,13 @@ header, #principal, #second, #contato, #stream {
 
 #second img {
   background-color: #fff;
-  border: 2px solid #ddd; /* Ajuste o valor do border conforme necessário */
-  padding: 10px; /* Se desejar adicionar espaço ao redor da imagem */
-  display: block; /* Garante que a imagem seja tratada como um bloco */
+  border: 2px solid #ddd;
+  padding: 10px;
+  display: block;
 }
 
 #cartaz {
-  display: flex; /* Adicionando display flex para garantir o alinhamento */
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -38,7 +38,7 @@ header, #principal, #second, #contato, #stream {
   padding: 10px 20px;
   border-radius: 5px;
   display: inline-block;
-  margin: 0 10px; /* Adiciona espaçamento horizontal entre os botões */
+  margin: 0 10px;
 }
 
 .link-menu.f {
@@ -121,7 +121,7 @@ h1, h2 {
   color: #fff;
   width: 50px;
   height: auto;
-  margin: 0 10px; /* Adiciona espaçamento horizontal entre os links */
+  margin: 0 10px;
 }
 
 footer {
@@ -140,9 +140,27 @@ footer {
 
 #social a img {
   width: 30px;
-  margin: 0 5px; /* Ajusta o espaçamento entre os ícones sociais */
+  margin: 0 5px;
 }
 
 #contato {
   padding: 10px 0 30px 40px;
+}
+
+/* Estilos adicionados para centralizar o botão e colocar a figurinha à esquerda */
+#botao-container {
+  display: flex;
+  justify-content: center; /* Centraliza o botão */
+  align-items: center;
+}
+
+#botao-container .link-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#botao-container img {
+  width: 30px; /* Ajuste o tamanho da figurinha conforme necessário */
+  margin-right: 10px; /* Espaçamento entre a figurinha e o botão */
 }
